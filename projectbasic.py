@@ -50,7 +50,7 @@ while(cap.isOpened()):
         
     
     #mask2= cv2.inRange(frame,np.array([50,50,50]),np.array([20,255,20]))
-    cv2.imshow("closed",maskClose)
+    #cv2.imshow("closed",maskClose)
     cv2.imshow("img",img)
     #cv2.imshow("maskopen",maskOpen)
     cv2.imshow("bgr",frame)
